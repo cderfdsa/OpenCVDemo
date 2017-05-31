@@ -9,6 +9,9 @@ public class Main {
         System.loadLibrary("opencv_java320");  
         Mat m  = Mat.eye(3, 3, CvType.CV_8UC1);  
         System.out.println("m = " + m.dump());  
-    }  
-  
+        
+        
+        DetectFaceDemo demo = new DetectFaceDemo();
+        demo.run();
+    }
 }  
